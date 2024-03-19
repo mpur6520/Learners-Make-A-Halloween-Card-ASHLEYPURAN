@@ -1,0 +1,83 @@
+/* Insert any CSS code below here */
+
+#outside {
+  z-index: 1;
+  position: absolute;
+  background-image: linear-gradient(#c8bad9, #8976a2 );
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: 1s;
+  transform-origin: 0;
+}
+
+.open-card {
+  transform: rotateY(90deg);
+}
+
+#outside-title {
+  color: #46225d;
+  font-family: cursive;
+  font-size: 25pt;
+  text-align: center;
+}
+
+#outside-pic {
+  width: 170px;
+}
+
+#message-front {
+  color: #5c496eff;
+  font-family: Courier;
+  font-size: 12pt;
+  text-align: center;
+}
+
+#line {
+  color: #484356;
+}
+
+#outside-help {
+  color: black;
+  font-family: Courier;
+  font-size: 12pt;
+  text-align: center;
+  padding: 20px;
+}
+
+#inside {
+  z-index: 0;
+  position: absolute;
+  background-color: #ffdbbd;
+  background-image: linear-gradient(#ffdbbd, #fcb695 );
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+#inside-title {
+  color: #833a3a;
+  font-family: cursive;
+  font-size: 25pt;
+  text-align: center;
+}
+
+#inside-pic {
+  width: 150px;
+}
+
+
+#message {
+  color: #aa674bff;
+  font-family: Courier;
+  font-size: 12pt;
+  text-align: center;
+}
+
+#line-inside {
+  color: #9e6c51;
+}
+
+button {
+  background: #cdc5d3;
+}
